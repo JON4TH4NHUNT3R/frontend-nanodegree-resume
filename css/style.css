@@ -29,6 +29,8 @@ h1 {
   color: #f5a623;
   line-height: 48px;
   display: inline;
+  padding-left: 10%;
+  text-align: right;
 }
 
 h2 {
@@ -60,7 +62,6 @@ h5 {
   padding:10px 5%;
 
 }
-
 
 .date-text {
   font-style: italic;
@@ -104,6 +105,84 @@ a {
   display: none;
 }
 
+#skills {
+    float: right;
+    margin: 0 15px 0 0;
+}
+
+.hide {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+
+
+/* Skills Chart styles */
+
+#charth2Text {
+    padding: 0;
+    margin: 0;
+}
+
+.skills-entry {
+    display: flex;
+}
+
+.skills-entry {
+    padding: 10px 5%;
+}
+
+.skillsIntro {
+    margin: 10px 0 0 0;
+}
+
+.skillChartContainer {
+    min-width: 500px;
+    margin: 0 0 0 -20px;
+}
+
+.skills-info {
+    min-width: 250px;
+}
+
+.skillInfo h3 {
+    padding: 0px 10px 10px 0;
+}
+
+.chart rect {
+    fill: steelblue;
+}
+        
+.chart rect:hover {
+    fill: green;
+}
+
+.chart text {
+    font: 13px sans-serif;
+}
+        
+.chart .bar-text {
+    fill: white;   
+}
+        
+.axis text {
+    font: 10px sans-serif;
+}
+        
+.x-title,
+.y-title {
+    font: 15px sans-serif;
+    text-anchor: middle;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
 .orange {
   background-color: #f5ae23;
 }
@@ -143,6 +222,10 @@ a {
 
 .center-content {
   padding: 2.5% 5%;
+}
+
+.project-entry {
+  text-align: -webkit-center;
 }
 
 ul {

@@ -23,6 +23,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 
   <!-- Load the page styles. -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
   <!--
   jQuery is a common JavaScript library for reading and making changes to the
@@ -38,7 +39,8 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   you can't accomplish with vanilla (regular) JavaScript.
   -->
   <script src="js/jQuery.js"></script>
-   <script src="js/d3.min.js"></script>
+  <script src="js/d3.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
   <!-- More on helper.js in the class -->
   <script src="js/helper.js"></script>
@@ -47,7 +49,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   Uncomment the <script> tag below when you're ready to add an interactive
   Google Map to your resume!
   -->
- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> -->
+ <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> 
 
   <meta name="viewport" content="width=device-width">
 </head>
@@ -65,6 +67,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     </div>
     <div id="education" class="gray">
       <h2>Education</h2>
+    </div>
+    <div id="skillsChart">
+      <h2>Skills<span id="charth2Text"> Chart</span></h2>
     </div>
     <div id="mapDiv">
       <h2>Where I've Lived and Worked</h2>
